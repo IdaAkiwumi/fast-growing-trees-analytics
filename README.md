@@ -1,9 +1,3 @@
-To make this look professional, you should present this **Technical ReadMe** as the "Documentation" for your project. In the world of Data Engineering, code without documentation is just a script, but code with a ReadMe is a **solution**.
-
-Here is a clean, markdown-ready template you can use. You can host this on GitHub, or even better, paste it into a **tab in your Excel file titled "Documentation"** to blow the hiring manager's mind.
-
----
-
 ## 📄 Technical Documentation: SKU Sales Performance Pipeline
 
 **Project Objective:** Transform raw transactional data into a stakeholder-ready monthly performance report with competitive ranking and market share analytics.
