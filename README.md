@@ -45,5 +45,5 @@ Data is only useful if it's readable. I implemented a formatting layer using `pr
 
 ### 📈 Scalability Note
 
-While this report was generated for the current dataset, the code is **idempotent**. If the input data scales from 1,000 to 1,000,000 rows, this pipeline will execute with the same logic and high performance, whereas a standard Excel-only approach would likely face significant latency or crashes.
+While this report was generated for the current dataset, the code is scalable or  **idempotent**. If the input data scales from 1,000 to 1,000,000 rows, this pipeline will execute with the same logic and high performance, whereas a standard Excel-only approach would likely face significant latency or crashes.
 
