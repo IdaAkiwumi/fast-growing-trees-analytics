@@ -43,6 +43,11 @@ Data is only useful if it's readable. I implemented a formatting layer using `pr
 
 ---
 
+### 📈 Q1 Performance Insights
+Market Leader: SKU D dominates the quarter with a 34% total sales share, peaking in March with 28,423 units.
+
+Early Momentum: SKU E showed the strongest start in January (37% share), but lost momentum as the quarter progressed.
+
 ### 📈 Scalability Note
 
 While this report was generated for the current dataset, the code is scalable or  **idempotent**. If the input data scales from 1,000 to 1,000,000 rows, this pipeline will execute with the same logic and high performance, whereas a standard Excel-only approach would likely face significant latency or crashes.
