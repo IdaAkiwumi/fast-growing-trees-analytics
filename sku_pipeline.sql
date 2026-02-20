@@ -1,6 +1,6 @@
 CREATE TABLE fastgrowingtrees_input AS
 
-SELECT * FROM read_csv_auto('data\fastgrowingtrees_input.csv');
+SELECT * FROM read_csv_auto('data/fastgrowingtrees_input.csv');
 
 
 
