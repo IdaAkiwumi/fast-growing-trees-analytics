@@ -3,7 +3,7 @@
 CREATE OR REPLACE TABLE fastgrowingtrees_input AS 
 SELECT * FROM read_csv_auto('fast-growing-trees-analytics/data/fastgrowingtrees_input.csv');
 
--- Step 2: Run the full analysis block
+-- Step 2: Run the full analysis 
 WITH monthlysales AS (
     SELECT
       SKU,
@@ -23,12 +23,16 @@ q1totals AS (
       SUM(jan_sales + feb_sales + mar_sales) OVER () AS total_q1
     FROM monthlysales
 )
+-- Final Output 
+
 SELECT
   SKU,
+  -- Add commas as thousands separation
   printf('%,d', jan_sales::INT) AS "Jan Unit Sales",
   printf('%,d', feb_sales::INT) AS "Feb Unit Sales",
   printf('%,d', mar_sales::INT) AS "Mar Unit Sales",
   printf('%,d', q1_unit_sales::INT) AS "Q1 Unit Sales",
+  -- Calculate Shares and Rank
   CASE 
     WHEN total_jan = 0 THEN '0%' 
     ELSE (ROUND((jan_sales::DOUBLE / total_jan) * 100))::INT::VARCHAR || '%' 
