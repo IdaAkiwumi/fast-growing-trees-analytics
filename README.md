@@ -30,7 +30,7 @@ I used **Conditional Aggregation** to "bucket" raw transactions into monthly col
 
 #### 2. Analytical Layer (The Market Share)
 
-To calculate the "Share of Sales," I used **Window Functions**. This allowed me to divide individual SKU performance by the company-wide total in a single pass, avoiding the need for multiple complex joins.
+To calculate the "Share of Sales," I used **Window Functions**. This allowed me to divide individual SKU performance by the company-wide total in a single pass.
 
 * *Key Logic:* `SUM(jan_sales) OVER ()`
 
