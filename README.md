@@ -55,5 +55,6 @@ While this report was generated for the current dataset, the code is scalable or
 💎 Support the Flow
 
 If this SQL code helped you in anyway, please consider supporting:
+
 [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/IdaAkiwumi)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/paypalme/iakiwumi)
