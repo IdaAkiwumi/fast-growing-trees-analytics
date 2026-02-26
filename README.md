@@ -48,6 +48,13 @@ Market Leader: SKU D dominates the quarter with a 34% total sales share, peaking
 
 Early Momentum: SKU E showed the strongest start in January (37% share), but lost momentum as the quarter progressed.
 
+## 📊 Interactive Dashboard
+Click the image below to view the interactive analysis on Tableau Public.
+
+[![FastGrowingTrees Analytics Dashboard](https://public.tableau.com/static/images/Tr/TreeCompanyProductRevenueAnalytics2024/UnitsSoldin2024/1_rss.png)](https://public.tableau.com/views/TreeCompanyProductRevenueAnalytics2024/UnitsSoldin2024)
+
+*Dashboard highlights include Q1 Units Sold, Revenue Trends, and SKU-level Market Share.*
+
 ### 📈 Scalability Note
 
 While this report was generated for the current dataset, the code is scalable or  **idempotent**. If the input data scales from 1,000 to 1,000,000 rows, this pipeline will execute with the same logic and high performance, whereas a standard Excel-only approach would likely face significant latency or crashes.
