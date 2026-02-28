@@ -55,7 +55,7 @@ Click the image below to view the interactive analysis on Tableau Public.
 
 *Dashboard highlights include Q1 Units Sold, Revenue Trends, and SKU-level Market Share.*
 
-# Tree Product Highest Profits 2024
+## Tree Product Highest Profits 2024
 Click the image below to view the visualization on Datawraper
 [![Tree Product Highest Profits 2024](https://datawrapper.dwcdn.net/P2bHc/full.png)](https://datawrapper.dwcdn.net/P2bHc/1/)
 
